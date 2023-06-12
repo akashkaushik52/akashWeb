@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       {!isLoaded ? (
         <div className={animation.loadingAnimation}>
           <BonusBall />
-          <h3 class={animation.springyText}>Ankit</h3>
+          <h3 class={animation.springyText}>Akash</h3>
           <p></p>
           <div className={animation.springyLine}></div>
         </div>
