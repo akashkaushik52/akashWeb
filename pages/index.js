@@ -76,7 +76,7 @@ export default function Home() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center pb-40">
                 <div className="rounded-md shadow">
                   <a
-                    href="https://www.linkedin.com/in/ankitsinghmyself/"
+                    href="https://www.linkedin.com/in/akash-kaushik-5292351a9/"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 md:py-4 md:text-lg md:px-10"
                     target="_blank"
                     rel="noreferrer"
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="https://drive.google.com/file/d/1cXjUkPhHm7zFPj0dfIUEFkJ1zwCbPW3-/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1pCFrJtiyvSa6BO57j7Nd4OaW7CTUfuAO/edit?sharingaction=ownershiptransfer"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-500 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                     target="_blank"
                     rel="noreferrer"
@@ -315,7 +315,7 @@ export default function Home() {
                 related to the stuff that I have learned over the years in Web
                 Development so it can help other people of the Dev Community.
                 Feel free to Connect or Follow me on my
-                <a href="https://www.linkedin.com/in/ankitsinghmyself/">
+                <a href="https://www.linkedin.com/in/akash-kaushik-5292351a9/">
                   <b>Linkedin</b>
                 </a>
                 where I post useful content related to
