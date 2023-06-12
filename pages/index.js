@@ -44,8 +44,8 @@ export default function Home() {
         <>
           <div>
             <Head>
-              <title>Ankit Singh</title>
-              <meta name="description" content="Ankit Singh Profile" />
+              <title>Akash Kaushik</title>
+              <meta name="description" content="Akash Kaushik Profile" />
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <main
@@ -55,7 +55,7 @@ export default function Home() {
               <div className="sm:text-center lg:text-center ">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">
-                    HEY, I&apos;M ANKIT SINGH
+                    HEY, I&apos;M AKASH KAUSHIK
                   </span>{' '}
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:text-lg md:mt-5">
