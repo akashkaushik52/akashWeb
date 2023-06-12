@@ -1,10 +1,10 @@
 {
-  "name": "ankitsinghmyself",
+  "name": "akashmyself",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Ankit Singh <ankitsinghmyself@gmail.com>",
+  "author": "Akash Kaushik <akashindiawushu@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",

@@ -29,7 +29,7 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-gray-100 h-20">
         <Link href="#home-section">
-          <a className="text-xl font-semibold">Ankit</a>
+          <a className="text-xl font-semibold">Akash</a>
         </Link>
       </div>
       <div className="flex flex-col ml-4">
@@ -79,7 +79,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="w-3/12 flex items-center">
           <Link href="/">
-            <a className="text-2xl font-semibold">Ankit.</a>
+            <a className="text-2xl font-semibold">Akash.</a>
           </Link>
         </div>
         <div className="w-9/12 flex justify-end items-center">
