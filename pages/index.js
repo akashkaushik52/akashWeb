@@ -59,18 +59,16 @@ export default function Home() {
                   </span>{' '}
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:text-lg md:mt-5">
-                  I&apos;m a Senior Software Engineer with expertise in
-                  JavaScript, Node.js, ReactJS, React Native, Angular, HTML/CSS,
-                  SCSS, MySQL, and SQLite/MongoDB. I have experience in building
+                  I&apos;m a Software Engineer with expertise in
+                  JavaScript, TypeScript, Node.js, NestJS, ReactJS, PHP, Codeigniter, HTML/CSS,
+                  SCSS, JQuery, MySQL, and Firestore. I have experience in building
                   scalable mobile and web applications, optimizing performance,
                   and ensuring scalability. My communication and collaboration
                   skills enable me to work effectively in cross-functional
                   teams. I have received awards for my commitment,
                   determination, and innovative projects. I hold a Master&apos;s
-                  degree in Computer Application from Visvesvaraya Technological
-                  University, Bangalore. I have built several projects,
-                  including an educational chatbot assistant and an Android app
-                  called NearbyPlaces.
+                  degree in Computer Application from Dr. A. P. J. Abdul Kalam Technological
+                  University, Lucknow.
                 </p>
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center pb-40">
