@@ -68,7 +68,8 @@ export default function Home() {
                   teams. I have received awards for my commitment,
                   determination, and innovative projects. I hold a Master&apos;s
                   degree in Computer Application from Dr. A. P. J. Abdul Kalam Technological
-                  University, Lucknow.
+                  University, Lucknow. I have built several projects,
+                  including an educational chatbot assistant.
                 </p>
               </div>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center pb-40">
@@ -229,11 +230,56 @@ export default function Home() {
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 bg-gray-100"
           >
             {certifications.map((certification) => (
+              
               <div
-                className="flex-1 p-4 flex justify-center"
+                className="flex justify-center"
                 key={certification._id}
               >
-                <article className="relative rounded-lg shadow-xl bg-white p-10">
+                <div class="bg-white rounded-lg shadow-lg p-4 m-4">
+                  <div class="flex">
+                    <div class="w-1/3">
+                      <img
+                      src={urlFor(certification.image).url()}
+                      alt={certification.title}
+                      className="h-full w-full object-cover rounded"
+                    />
+                    </div>
+                    <div class="w-2/3 pl-4">
+                      <h2 class="text-xl font-bold mb-2">
+                        <a
+                        href={certification.link}
+                        alt={certification.title}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {certification.title}
+                      </a>
+                      </h2>
+                      <p>
+                        <span className="text-right">
+                        {new Date(certification.date).toLocaleString('en-US', {
+                          month: 'long',
+                        })}{' '}
+                        {new Date(certification.date).getFullYear()}
+                      </span>
+                      </p>
+                      <p>
+                      <span>
+                        {certification.technologies.map((technology) => (
+                          <button
+                            key={technology}
+                            type="button"
+                            className="mr-6 text-xs bg-gray-300 bg-opacity-50 text-gray-700 p-2 rounded uppercase  leading-none mb-2 "
+                          >
+                            {technology}
+                          </button>
+                        ))}
+                      </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* <article className="relative rounded-lg shadow-xl bg-white p-10">
                   <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                     <a
                       href={certification.link}
@@ -292,7 +338,7 @@ export default function Home() {
                       )}
                     </div>
                   </div>
-                </article>
+                </article> */}
               </div>
             ))}
           </div>

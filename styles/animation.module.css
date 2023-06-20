@@ -31,6 +31,6 @@
   }
   100% {
     letter-spacing: 0.1em;
-    color: rgb(236, 26, 26);
+    color: var(--primary-color);
   }
 }
